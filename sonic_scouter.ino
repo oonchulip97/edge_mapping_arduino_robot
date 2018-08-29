@@ -13,18 +13,18 @@ const int echo2 = 11; // pin number for sensor 2 echo pin
 const int trig3 = 12; // pin number for sensor 3 trigger pin
 const int echo3 = 13; // pin number for sensor 3 echo pin
 
-long duration1; // time for ultrasound to bound back to sensor 1
+long duration1; // time for ultrasound to bounce back to sensor 1
 int distance1; // distance to obstacle on the port side in centimeters
-long duration2; // time for ultrasound to bound back to sensor 2
+long duration2; // time for ultrasound to bounce back to sensor 2
 int distance2; // distance to obstacle on the front in centimeters
-long duration3; // time for ultrasound to bound back to sensor 3
+long duration3; // time for ultrasound to bounce back to sensor 3
 int distance3; // distance to obstacle on the starboard side in centimeters
 
-int lastdistance1 = 10; // initialise variables for preventtimeout and prevent volatility
+int lastdistance1 = 10; // initialise variables to prevent timeout and prevent volatility
 int lastdistance2 = 10;
 int lastdistance3 = 10;
 
-const int optimumdistance = 10; // optimum distance to move along the wall
+const int optimumdistance = 10; // distance to move along the wall
 const int kp = 4; // constant for the proportional controller
 const int ki = 0.08; // constant for the integral controller
 const int kd = 50; // constant for the differential controller
@@ -44,10 +44,10 @@ int delaytime = 3000; // time of delay in milliseconds
 const int interruptA = 2;  // pin number for encoder A interrupt pin
 const int interruptB = 3; // pin number for encoder B interrupt pin
 
-long coder[2] = {0, 0}; // an array to hold wheel speed of left and right wheel encoders respectively for pid controller
+long coder[2] = {0, 0}; // an array to hold wheel speed of left and right wheel encoders respectively for pid control
 
-const byte rows = 30; // number of rows for the array
-const byte columns = 30; // number of columns for the array
+const byte rows = 30; // number of rows for the map array
+const byte columns = 30; // number of columns for the map array
 byte maplayout[rows][columns] = {}; // an array to represent the layout of the map which '0' represents empty spaces and '1' represents obstacles
 
 const int buttonPin = 19; // pin number for button
@@ -68,7 +68,7 @@ int mapturnleftcounter = 0; // counter for mapping when turning left
 long lastUpdateTime = 0; // the last time map is being updated into EEPROM
 long updateDelay = 5000; // time interval between updating map into EEPROM in milliseconds
 
-long lastResetTime = 100000; // the last time mapturnleftcounter is being resetted
+long lastResetTime = 100000; // the last time the variable mapturnleftcounter is being resetted
 long resetDelay = 5000; // time interval between resetting mapturnleftcounter
 
 // the setup function runs once when you press reset or power the board
