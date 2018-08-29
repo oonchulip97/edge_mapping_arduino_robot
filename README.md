@@ -25,9 +25,7 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
 # Results
  '0' indicates free space while '1' indicates boundaries.
 
- ![Map 1](maps/Map1.png)
- ![Map 2](maps/Map2.png)
- ![Map 3](maps/Map3.png)
+ ![Binary Textmap](maps/Map1.png)
 
 # Mechanism
 ## Moving
