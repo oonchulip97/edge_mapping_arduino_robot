@@ -2,6 +2,9 @@
 This robot is able to trace out the boundaries of a surrounding, for example, the walls and output the map onto a computer.
 
 # Getting Started
+
+<img src="/SonicScouter.jpg"  width="480">
+
 ## Boards and Sensors
  - Arduino Uno.
  - Ultrasonic Sonic Sensor HC-SR04. 
@@ -14,8 +17,6 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
 ## Software
  - Arduino IDE
  
- <img src="/SonicScouter.jpg"  width="480">
- 
 # Deployment
  1. Connect to computer and long press the pushbutton to initiate and reset the map in EEPROM.
  2. Place arduino car near a boundary. 
@@ -24,12 +25,13 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
  5. Press pushbutton when arduino car is moving in a straight line after mapping is completed.
  6. Connect to computer to obtain map via EEPROM.
  
+ Below is a demo.
 [![Sonic Scouter In Action](http://img.youtube.com/vi/RfFJhqWAsDc/0.jpg)](http://www.youtube.com/watch?v=RfFJhqWAsDc "Sonic Scouter In Action")
  
 # Results
  '0' indicates free space while '1' indicates boundaries.
-
- ![Binary Textmap](maps/Map1.png)
+ 
+ <img src="/maps/Map1.png"  width="480">
 
 # Mechanism
 ## Moving
