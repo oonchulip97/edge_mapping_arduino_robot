@@ -24,7 +24,7 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
  5. Press pushbutton when arduino car is moving in a straight line after mapping is completed.
  6. Connect to computer to obtain map via EEPROM.
  
- ![Sonic Scouter In Action](https://youtu.be/RfFJhqWAsDc)
+ ![Sonic Scouter In Action](https://youtube.com/RfFJhqWAsDc)
  
 # Results
  '0' indicates free space while '1' indicates boundaries.
