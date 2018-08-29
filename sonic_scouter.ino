@@ -1,7 +1,7 @@
 /*
- * PROJECT: Sonic Scouter.
- * OBJECTIVE: Map out the boundaries of a surrounding.
- * LAST UPDATED ON: 22nd August 2017 by Oon Chu Lip.
+ * Project: Sonic Scouter.
+ * Objective: Map out the boundaries of a surrounding.
+ * Last updated: 22nd August 2017 by Oon Chu Lip.
  */
 
 #include <EEPROM.h>
