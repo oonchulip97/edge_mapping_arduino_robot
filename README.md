@@ -15,7 +15,7 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
  - Arduino IDE
  
  ![Sonic Scouter](SonicScouter.jpg)
- <img src="/SonicScouter.jpg"  width="120" >
+ <img src="/SonicScouter.jpg"  width="500" >
  
 # Deployment
  1. Connect to computer and long press the pushbutton to initiate and reset the map in EEPROM.
