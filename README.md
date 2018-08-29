@@ -2,7 +2,7 @@
 This robot is able to trace out the boundaries of a surrounding, for example, the walls and output the map onto a computer.
 
 # Getting Started
-## Board and Sensors
+## Boards and Sensors
  - Arduino Uno.
  - Ultrasonic Sonic Sensor HC-SR04. 
    - Sensor 1, 2 and 3 is on port, front, starboard side respectively.
@@ -10,3 +10,16 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
    - Motor A and B is on port and starboard side respectively.
  - Wheel Encoders (SKU: SEN0038). 
    - Encoder A and B is attached to motor A and B respectively.
+   
+## Software
+ - Arduino IDE
+ 
+# Deployment
+ 1. Connect to computer and long press the pushbutton to initiate and reset the map in EEPROM.
+ 2. Place arduino car near a boundary. 
+ 3. Switch on the Arduino board and the motors. 
+ 4. Long press the pushbutton to begin mapping.
+ 5. Press pushbutton when arduino car is moving in a straight line after mapping is completed.
+ 6. Connect to computer to obtain map via EEPROM.
+
+# Logic
