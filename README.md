@@ -14,7 +14,7 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
 ## Software
  - Arduino IDE
  
- ![SonicScouter](SonicScouter.jpg)
+ ![Sonic Scouter](SonicScouter.jpg)
  
 # Deployment
  1. Connect to computer and long press the pushbutton to initiate and reset the map in EEPROM.
@@ -23,6 +23,8 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
  4. Long press the pushbutton to begin mapping.
  5. Press pushbutton when arduino car is moving in a straight line after mapping is completed.
  6. Connect to computer to obtain map via EEPROM.
+ 
+ ![Sonic Scouter In Action](https://www.youtube.com/watch?v=RfFJhqWAsDc)
  
 # Results
  '0' indicates free space while '1' indicates boundaries.
