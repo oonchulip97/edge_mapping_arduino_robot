@@ -2,16 +2,6 @@
  * PROJECT: Sonic Scouter.
  * OBJECTIVE: Map out the boundaries of a surrounding.
  * LAST UPDATED ON: 22nd August 2017 by Oon Chu Lip.
- * PARTS:
- * Arduino Uno.
- * Ultrasonic Sonic Sensor HC-SR04. Sensor 1, 2 and 3 is on port, front, starboard side respectively.
- * Arduino Motor Shield similar to model (L293) (SKU: DRI0001) with no brake control. Motor A and B is on port and starboard side respectively.
- * Wheel Encoders (SKU: SEN0038). Encoder A and B is attached to motor A and B respectively.
- * USAGE:
- * Before starting, connect to computer and long press pushbutton to initiate map and reset map in EEPROM.
- * Place arduino car near a boundary. Switch on to start up motors. Long press pushbutton to begin mapping.
- * Press pushbutton when arduino car is moving in a straight line after mapping is completed.
- * Connect to computer to obtain map.
  */
 
 #include <EEPROM.h>
