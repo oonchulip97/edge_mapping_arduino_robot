@@ -14,8 +14,7 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
 ## Software
  - Arduino IDE
  
- ![Sonic Scouter](SonicScouter.jpg)
- <img src="https://github.com/oonchulip97/edge_mapping_arduino_robot/SonicScouter.jpg" width="48">
+ ![Sonic Scouter](SonicScouter.jpg =100)
  
 # Deployment
  1. Connect to computer and long press the pushbutton to initiate and reset the map in EEPROM.
