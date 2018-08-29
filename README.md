@@ -22,4 +22,19 @@ This robot is able to trace out the boundaries of a surrounding, for example, th
  5. Press pushbutton when arduino car is moving in a straight line after mapping is completed.
  6. Connect to computer to obtain map via EEPROM.
 
-# Logic
+# Mechanism
+## Moving
+ This robot is following the boundaries using left-hand rule.
+ - Is obstacle in front?
+   - Yes: Turn right
+   - No: Proceed checking
+ - Is there free space at the left?
+   - Yes: Turn left
+   - No: Move forward at a distance from the boundaries at the left
+
+## Mapping
+ - Look up the direction the robot is facing via dead reckoning (North, South, East, West)
+  - If robot turn left: change internal direction towards left (i.e. North to West) 
+  - If robot turn right: change internal direction towards right (i.e. North to East)
+  - If robot move forward: change '0' to '1' in previous position
+ 
