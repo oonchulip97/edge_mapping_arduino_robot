@@ -1,8 +1,7 @@
-# Edge Mapping Arduino Robot
+# Overview
 This robot is able to trace out the boundaries of a surrounding, for example, the walls and output the map onto a computer.
 
-# Getting Started
-
+# Setup
 <img src="/SonicScouter.jpg"  width="480">
 
 ## Boards and Sensors
